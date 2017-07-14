@@ -1,6 +1,12 @@
 # Degree
-- degree: Associates Degree, Business Management
-  uni: Springfield College
-  year: 1984 &mdash; 1986
-  awards: Quickest to fall asleep
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: 정보통신학과
+  uni: 선린인터넷 고등학교
+  year: 2011 &mdash; 2014
+  awards: 프로그래밍 동아리, 전교 부회장
+  summary: 컴퓨터에 관한 관심을 갖고 선린인터넷 고등학교에 입학하여 프로그래밍에 입문.
+
+# - degree: HighSchool graduate, Information Communication major
+#   uni: Sunrin Internet HighSchool
+#   year: 2011 &mdash; 2014
+#   awards: Student Vice-Chairman, Programming Club
+#   summary: If you had any meaningful roles at college, feel free to write about them here

@@ -1,19 +1,39 @@
 # Jobs
 # Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+- company: 이음소시어스
+  position: Devops Engineer
+  duration: Dec, 2016 &mdash; Present
+  summary: 현재 Ruby와 Rails를 사용한 소개팅 어플 서비스인 이음과 IM8의 백엔드 담당.
 
 # Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: (주) 네고
+  position: Backend Developer
+  duration:  Mar, 2016 &mdash; Jul, 2016
+  summary: Python과 Flask를 이용하여 네고(네이버 최저가 알림 서비스)앱의 백엔드 담당.
 
 
 # Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+- company: (주) 위즈온텍
+  position: Backend Developer
+  duration:   Mar, 2014  &mdash; Oct, 2015
+  summary: Spring 프레임워크를 이용하여 Tmap(티맵)의 Terms(약관) 관련 백엔드 담당.
+
+# Jobs
+# Springfield Nuclear Power Plant
+# - company: Springfield Nuclear Power Plant
+#   position: Safety Inspector
+#   duration: Nov, 1980 &mdash; Present
+#   summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+#
+# # Windmill Crank Operator
+# - company: Sir Putt-A-Lot's Merrie Olde Fun Centre
+#   position: Safety Inspector
+#   duration:  Jun, 1978 &mdash; Sept, 1979
+#   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+#
+#
+# # Front Desk Attendant
+# - company: Simpson Lazer Tag
+#   position: Front Desk Attendant
+#   duration:   Jun, 1975  &mdash; May, 1978
+#   summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
