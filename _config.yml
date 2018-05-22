@@ -10,12 +10,11 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Hyun Bin Choi"
-resume_title:                   "Devops Engineer"
-resume_contact_email:
-  "chlgusrla@gmail.com"
+resume_name:                    "최현빈"
+resume_title:                   "Backend"
+resume_contact_email:           "chlgusrla@gmail.com"
 resume_header_contact_info: "164, Gomdallae-ro, Gangseo-gu, Seoul, Republic of Korea | 010-3609-3169 | chlgusrla@gmail.com"
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>"
+resume_header_intro: "<br><div style='text-align: center;'>이음소시어스에서 백엔드 개발자로 근무중입니다. <br><div style='margin-top: 5px; font-size: 12px;'>( 2020년까지 방위산업체에서만 근무가 가능합니다. )</div></div><br>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -27,11 +26,11 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
 resume_section_associations:    true
+resume_section_projects:        true
+#resume_section_skills:          true
+#resume_section_recognition:     true
+#resume_section_links:           true
 # resume_section_interests:       true
 
 # Resume social links
