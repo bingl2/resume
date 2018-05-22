@@ -1,21 +1,21 @@
 # Jobs
-# Springfield Nuclear Power Plant
+# 이음소시어스
 - company: 이음소시어스
-  position: Devops Engineer
-  duration: Dec, 2016 &mdash; Present
+  position: Backend
+  duration: 2016년 12월 &mdash; 현재
   summary: 현재 Ruby와 Rails를 사용한 소개팅 어플 서비스인 이음과 IM8의 백엔드 담당.
 
-# Windmill Crank Operator
-- company: (주) 네고
-  position: Backend Developer
-  duration:  Mar, 2016 &mdash; Jul, 2016
+# 네고
+- company: 네고
+  position: Backend
+  duration:  2016년 3월 &mdash; 16년 7월
   summary: Python과 Flask를 이용하여 네고(네이버 최저가 알림 서비스)앱의 백엔드 담당.
 
 
-# Front Desk Attendant
-- company: (주) 위즈온텍
-  position: Backend Developer
-  duration:   Mar, 2014  &mdash; Oct, 2015
+# 위즈온텍
+- company: 위즈온텍
+  position: Backend
+  duration: 2014년 3월 &mdash; 2015년 10월
   summary: Spring 프레임워크를 이용하여 Tmap(티맵)의 Terms(약관) 관련 백엔드 담당.
 
 # Jobs
