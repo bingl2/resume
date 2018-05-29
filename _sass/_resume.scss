@@ -141,6 +141,7 @@
   }
 
   .resume-item-details {
+    @include sans_bold;
     font-size: 1.125rem;
     margin: 0 0 .75rem;
     line-height: 1;
