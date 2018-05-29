@@ -1,12 +1,10 @@
 # Projects
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+- project: Blank Record
+  duration: 2018.4 — 현재
+  skillset: Python Django Postgresql
+  description: 크로스핏 운동 기록 및 분석용 프로젝트
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: 사내 헤카톤 프로젝트
+  duration: 2017.9 — 2017.10
+  skillset: "#Ruby #RoR #EC2 #RDS #Route53"
   description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
