@@ -1,10 +1,27 @@
-# Projects
 - project: Blank Record
   duration: 2018.4 — 현재
-  skillset: Python Django Postgresql
+  skillset: "#Python  #Django  #Postgresql"
   description: 크로스핏 운동 기록 및 분석용 프로젝트
 
 - project: 사내 헤카톤 프로젝트
   duration: 2017.9 — 2017.10
-  skillset: "#Ruby #RoR #EC2 #RDS #Route53"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53"
+  description: 블라인드를 모티브로 사내용 익면 게시판 프로젝트
+
+- project: 해카톤 프로젝트 (밤편지)
+  duration: 2017.8 — 2017.8
+  skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53"
+  description: 어라운드를 모방하여 해카톤으로 작업한 프로젝트
+
+- project: 코드 김치
+  duration: 2017.3 — 2017.4
+  skillset: "#Python  #Flask  #Postgresql #EC2 #RDS #Route53"
+  description: Weekly Python 같은 다양항 뉴스레터를 구독 후 뉴스레터를 크롤링하여 데이터를 저장 후 관심 추가를 한 유저들에게 앱 푸시를 통해 알려준다.
+
+- project: 인터파크 티켓 뮤지컬 크롤러
+  duration: 2016.12
+  skillset: "#Python"
+  description: 신규 뮤지컬 오픈 관련 뮤지컬 Info 크롤러
+
+
+
