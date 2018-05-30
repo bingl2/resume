@@ -1,11 +1,5 @@
 # Associations
-- organization: Beer for the World
-  role: Volunteer
-  year: 2008 &mdash; Present
-  summary: Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.
-
-
-- organization: Springfield Nuclear Workers Labor Union
-  role: Member in Good Standin
-  year: 1994 &mdash; Present
-  summary: Founding member of the local nuclear workers labor union.
+- organization: Flative
+  role: Developer
+  year: 2016.2 — Present
+  summary: Flative은 일종의 씽크탱크, 각 프로젝트는 프로젝트대로 주체권을 가지고 굴러감 (영리 목적 프로젝트가 잘되면 독립)
