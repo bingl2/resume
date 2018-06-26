@@ -79,9 +79,14 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
             <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
             <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
-            <p class="resume-item-copy">{{ project.description }}</p>
             <br>
-            <h4 class="resume-item-details" itemprop="description">기술 스택</h4>
+            <h4 class="resume-item-details">주요 작업</h4>
+            {% for description in project.descriptions %}
+                <li>{{description}}</li>
+            {% endfor %}
+
+            <br>
+            <h4 class="resume-item-details">기술 스택</h4>
             <p class="resume-item-copy">{{ project.skillset }}</p>
             <br>
         </div>
