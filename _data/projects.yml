@@ -1,27 +1,32 @@
+- project: Bingl2 Diary
+  duration: 2018.6 — 현재
+  skillset: "#Python #Django #Postgresql #Zappa #Lambda #RDS #Route53 #S3"
+  descriptions: ["Django Framework 프로젝트", "Serverless 아키텍처 구성", "Zappa를 이용하여 배포 시스템 구축", "전적으로 AWS 활용"]
+
 - project: Blank Record
-  duration: 2018.4 — 현재
-  skillset: "#Python  #Django  #Postgresql"
-  description: 크로스핏 운동 기록 및 분석용 프로젝트
+  duration: 2018.4
+  skillset: "#Python #Django #Postgresql #RDS"
+  descriptions: ["크로스핏 운동 기록관리용 프로젝트", "모델링 중점 작업 진행", "Django Framework 프로젝트"]
 
 - project: 사내 헤카톤 프로젝트
   duration: 2017.9 — 2017.10
-  skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53"
-  description: 블라인드를 모티브로 사내용 익면 게시판 프로젝트
+  skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53  #Postgresql"
+  descriptions: ["사내 익명 게시판 서비스", "Ruby on Rails Framework 프로젝트", "모델링 및 Rest API 백엔드 개발"]
 
 - project: 해카톤 프로젝트 (밤편지)
-  duration: 2017.8 — 2017.8
+  duration: 2017.8
   skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53"
-  description: 어라운드를 모방하여 해카톤으로 작업한 프로젝트
+  descriptions: ["어라운드를 모방한 서비스", "Ruby on Rails Framework 프로젝트", "풀스텍 개발 진행"]
 
 - project: 코드 김치
   duration: 2017.3 — 2017.4
-  skillset: "#Python  #Flask  #Postgresql #EC2 #RDS #Route53"
-  description: Weekly Python 같은 다양항 뉴스레터를 구독 후 뉴스레터를 크롤링하여 데이터를 저장 후 관심 추가를 한 유저들에게 앱 푸시를 통해 알려준다.
+  skillset: "#Python  #Flask  #Postgresql #EC2 #RDS #Route53 #JWT #Crawler"
+  descriptions: ["뉴스레터 구독 알림 서비스", "이메일 크롤링 기반으로 데이터 축적", "JWT 이용한 API 통신", "Rest API 백엔드 개발"]
 
-- project: 인터파크 티켓 뮤지컬 크롤러
+- project: 뮤지컬 크롤러
   duration: 2016.12
-  skillset: "#Python"
-  description: 신규 뮤지컬 오픈 관련 뮤지컬 Info 크롤러
+  skillset: "#Python #Flask #Crawler"
+  descriptions: ["신규 뮤지컬 알람 서비스", "Python, Flask Framwork 사용", "뮤지컬 사이트 크롤링 진행"]
 
 
 
