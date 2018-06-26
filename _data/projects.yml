@@ -1,4 +1,4 @@
-- project: 빙글이 다이어리
+- project: Bingl2 Diary
   duration: 2018.6 — 현재
   skillset: "#Python #Django #Postgresql #Zappa #Lambda #RDS #Route53 #S3"
   descriptions: ["Django Framework 프로젝트", "Serverless 아키텍처 구성", "Zappa를 이용하여 배포 시스템 구축", "전적으로 AWS 활용"]
