@@ -15,13 +15,14 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+  font-family: 돋움, dotum, 굴림, gulim;
 }
 
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
 .wrapper {
-  max-width: 728px;
+  max-width: 800px;
   padding: 0 24px;
   margin: 0 auto;
   zoom: 1;
