@@ -58,9 +58,9 @@
             <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
             <p class="resume-item-copy">{{ job.summary }}</p>
             <br>
-            <div style="border:1px solid; padding:10px;">
-                기술 스택 - {{job.skillset}}
-            </div>
+            <h4 class="resume-item-details">기술 스택</h4>
+            <p class="resume-item-copy">{{ job.skillset }}</p>
+
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -82,7 +82,7 @@
             <br>
             <h4 class="resume-item-details">주요 작업</h4>
             {% for description in project.descriptions %}
-                <li>{{description}}</li>
+            <li>{{description}}</li>
             {% endfor %}
 
             <br>
