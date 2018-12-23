@@ -54,13 +54,24 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+
             <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
             <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-            <p class="resume-item-copy">{{ job.summary }}</p>
-            <br>
-            <h4 class="resume-item-details">기술 스택</h4>
-            <p class="resume-item-copy">{{ job.skillset }}</p>
 
+            <br>
+            {% for summary in job.summarys %}
+            <li>{{summary}}</li>
+            {% endfor %}
+            <br>
+
+            <!--<p class="resume-item-copy">{{ job.summary }}</p>-->
+            <h4 class="resume-item-details">기술 스택</h4>
+
+            {% for skill in job.skillset %}
+            <span class="badge badge-red">{{ skill }}</span>
+            {% endfor %}
+
+            <br><br>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -72,23 +83,31 @@
     <!-- begin Projects -->
     <section class="content-section">
         <header class="section-header">
-            <h2>Individual Project</h2>
+            <h2>Project</h2>
         </header>
 
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
             <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
-            <h4 class="resume-item-details" itemprop="description">{{ project.duration }}</h4>
+            <h4 class="resume-item-details" itemprop="description">( {{ project.duration }} )</h4>
             <br>
-            <h4 class="resume-item-details">주요 작업</h4>
+
             {% for description in project.descriptions %}
-            <li>{{description}}</li>
+                <li>{{description}}</li>
             {% endfor %}
 
             <br>
             <h4 class="resume-item-details">기술 스택</h4>
-            <p class="resume-item-copy">{{ project.skillset }}</p>
-            <br>
+            {% for skill in project.skillset %}
+            <span class="badge badge-blue">{{ skill }}</span>
+            {% endfor %}
+
+            <br><br>
+            <h4 class="resume-item-details">인프라 스택 </h4>
+            {% for infra in project.infraset %}
+            <span class="badge badge-green">{{ infra }}</span>
+            {% endfor %}
+            <br><br>
         </div>
         {% endfor %}
 
