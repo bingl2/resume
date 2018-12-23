@@ -1,32 +1,26 @@
-- project: Bingl2 Diary
-  duration: 2018.6 — 현재
-  skillset: "#Python #Django #Postgresql #Zappa #Lambda #RDS #Route53 #S3"
-  descriptions: ["Django Framework 프로젝트", "Serverless 아키텍처 구성", "Zappa를 이용하여 배포 시스템 구축", "전적으로 AWS 활용"]
+- project: 코인 거래량 통계 분석 서비스
+  duration: 2018.6
+  skillset: ["Python", "Django", "Postgresql", "Zappa"]
+  infraset: ["Lambda", "CloudWatch", "RDS", "Route53", "S3"]
+  descriptions: ["Serverless 아키텍처 구성", "Zappa 배포 시스템 구축"]
 
-- project: Blank Record
-  duration: 2018.4
-  skillset: "#Python #Django #Postgresql #RDS"
-  descriptions: ["크로스핏 운동 기록관리용 프로젝트", "모델링 중점 작업 진행", "Django Framework 프로젝트"]
+- project: 사내 익명 게시판 서비스
+  duration: 2017.9
+  skillset: ["Ruby", "RoR", "Postgresql"]
+  infraset: ["EC2", "RDS", "Route53"]
+  descriptions: ["사내 익명 게시판 서비스", "Rest API 개발"]
 
-- project: 사내 헤카톤 프로젝트
-  duration: 2017.9 — 2017.10
-  skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53  #Postgresql"
-  descriptions: ["사내 익명 게시판 서비스", "Ruby on Rails Framework 프로젝트", "모델링 및 Rest API 백엔드 개발"]
+- project: 뉴스레터 구독 알림 서비스
+  duration: 2017.3 — 2017.5
+  skillset: ["Python", "Flask", "Postgresql", "JWT", "Crawler"]
+  infraset: ["EC2", "RDS", "CloudFront", "Route53", "SNS"]
+  descriptions: ["각종 구독 이메일 데이터 크롤링 기반으로 데이터 축적", "JWT 이용한 토큰 기반 API 통신", "Rest API 개발"]
 
-- project: 해카톤 프로젝트 (밤편지)
-  duration: 2017.8
-  skillset: "#Ruby  #RoR  #EC2  #RDS  #Route53"
-  descriptions: ["어라운드를 모방한 서비스", "Ruby on Rails Framework 프로젝트", "풀스텍 개발 진행"]
-
-- project: 코드 김치
-  duration: 2017.3 — 2017.4
-  skillset: "#Python  #Flask  #Postgresql #EC2 #RDS #Route53 #JWT #Crawler"
-  descriptions: ["뉴스레터 구독 알림 서비스", "이메일 크롤링 기반으로 데이터 축적", "JWT 이용한 API 통신", "Rest API 백엔드 개발"]
-
-- project: 뮤지컬 크롤러
+- project: 뮤지컬 알림 서비스
   duration: 2016.12
-  skillset: "#Python #Flask #Crawler"
-  descriptions: ["신규 뮤지컬 알람 서비스", "Python, Flask Framwork 사용", "뮤지컬 사이트 크롤링 진행"]
+  skillset: ["Python", "Flask", "Crawler"]
+  infraset: ["EC2", "RDS", "SNS"]
+  descriptions: ["신규 뮤지컬 알림 서비스", "인터파크 티켓 뮤지컬, PlayDB 사이트 크롤러 구현"]
 
 
 
