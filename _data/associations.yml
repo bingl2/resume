@@ -1,7 +1,8 @@
-- organization: <a href="https://blog.1rooom.com/" target="_blank">1Rooom</a>
+#- organization: <a href="https://blog.1rooom.com/" target="_blank">1Rooom</a>
+- organization: 1Rooom
   role: Developer
   year: 2018.6 — Present
-  summary: 개인이 자발적을 작업을 하는 습관을 기르기 위한 개발자 모임입니다.  개인적인 성장을 위한 프로젝트를 진행하고 있으며 협업을 목적으로 팀프로젝트 또한 진행중입니다.
+  summary: 자발적으로 작업을 하는 습관을 기르기 위한 개발자 모임입니다.
 
 - organization: Flative
   role: Developer

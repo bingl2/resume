@@ -3,6 +3,38 @@
 
 // util
 
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-gray {
+    color: #fff;
+    background-color: #868e96;
+}
+
+.badge-red {
+    color: #fff;
+    background-color: #960d0d;
+}
+
+.badge-green {
+    color: #fff;
+    background-color: #0b966c;
+}
+
+.badge-blue {
+    color: #fff;
+    background-color: #0c4c96;
+}
+
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;

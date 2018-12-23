@@ -11,10 +11,10 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "최현빈"
-resume_title:                   "Backend"
+resume_title:                   "Backend Developer"
 resume_contact_email:           "chlgusrla@gmail.com"
-resume_header_contact_info: "164, Gomdallae-ro, Gangseo-gu, Seoul, Republic of Korea | 010-3609-3169 | chlgusrla@gmail.com"
-resume_header_intro: "<br><div style='text-align: center;'>이음소시어스에서 백엔드 개발자로 근무중입니다. <br><div style='margin-top: 5px; font-size: 12px;'>( 2020년까지 방위산업체에서만 근무가 가능합니다. )</div></div><br>"
+resume_header_contact_info: "chlgusrla@gmail.com"
+resume_header_intro: "<br><div style='text-align: center;'>4년차 백엔드 개발자입니다. <br>  함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br> 책 읽기와 이야기 하는 것을 좋아합니다.</div><br>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -36,12 +36,12 @@ resume_section_education:       true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/bingl2"
+#  resume_github_url:            "https://github.com/bingl2"
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
-  resume_facebook_url:          "https://www.facebook.com/hyunbin.choi.77"
-  resume_linkedin_url:          "https://www.linkedin.com/in/%ED%98%84%EB%B9%88-%EC%B5%9C-ba146b140/"
-  resume_instagram_url:         "https://www.instagram.com/hyun.bi/"
+#  resume_facebook_url:          "https://www.facebook.com/hyunbin.choi.77"
+  resume_linkedin_url:          "https://www.linkedin.com/in/bingl2/"
+#  resume_instagram_url:         "https://www.instagram.com/hyun.bi/"
   # resume_website_url:           "http://joelglovier.com"
 resume_print_social_links:      true
 
