@@ -68,9 +68,15 @@
             <h4 class="resume-item-details">기술 스택</h4>
 
             {% for skill in job.skillset %}
-            <span class="badge badge-red">{{ skill }}</span>
+            <span class="badge badge-blue">{{ skill }}</span>
             {% endfor %}
 
+            <br><br>
+
+            <h4 class="resume-item-details">인프라 스택 </h4>
+            {% for infra in job.infraset %}
+            <span class="badge badge-green">{{ infra }}</span>
+            {% endfor %}
             <br><br>
         </div><!-- end of resume-item -->
         {% endfor %}
