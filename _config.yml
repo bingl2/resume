@@ -11,10 +11,10 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "최현빈"
-resume_title:                   "Backend Developer"
+resume_title:                   "Software Engineer"
 resume_contact_email:           "chlgusrla@gmail.com"
 resume_header_contact_info: "chlgusrla@gmail.com"
-resume_header_intro: "<br><div style='text-align: center;'>4년차 백엔드 개발자입니다. <br>  함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br> 책 읽기와 이야기 하는 것을 좋아합니다.</div><br>"
+resume_header_intro: "<br><div style='text-align: center;'>함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br> 책 읽기와 이야기 하는 것을 좋아합니다.</div><br>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
