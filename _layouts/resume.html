@@ -34,6 +34,32 @@
         <div class="executive-summary no-print" itemprop="description">
             {{ site.resume_header_intro }}
         </div>
+        <br>
+
+        <table width="100%">
+            <tr>
+                {% for skill in site.data.skills %}
+                <th>{{ skill.area }}</th>
+                {% endfor %}
+            </tr>
+
+            <tr>
+                {% for skill in site.data.skills %}
+                <td width="33%" style="text-align: center;">
+                    <p class="star_rating">
+                        {% for number in (1..skill.level)%}
+                        <span class="on">★</span>
+                        {% endfor %}
+                        {% for number in (skill.level..4)%}
+                        <span>★</span>
+                        {% endfor %}
+                    </p>
+                </td>
+                {% endfor %}
+            </tr>
+        </table>
+
+        <br>
 
         {% if site.resume_looking_for_work == 'yes' %}
         <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
@@ -99,7 +125,7 @@
             <br>
 
             {% for description in project.descriptions %}
-                <li>{{description}}</li>
+            <li>{{description}}</li>
             {% endfor %}
 
             <br>
