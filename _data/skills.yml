@@ -1,11 +1,14 @@
 - area: Backend
   level: 4
-  description: "Ruby(RoR) 은 바로 개발할 수 있어요. Java(Spring), Python(Django)은 경험은 있지만 조금의 학습이 필요합니다. 그외 언어 및 프레임워크는 학습이 필요하지만 금방 적응할 수 있어요."
-
-- area: Frontend
-  level: 3
-  description: " Javascript, Jquery는 바로 개발할 수 있어요. React는 경험은 있지만 조금의 학습이 필요합니다. 타입스크립트 및 그외 웹프레임워크는 학습이 필요하지만 금방 적응할 수 있어요."
+  description: [{"item": ["Ruby(RoR)", "SQL(Mysql, Psql)"],"level": "1"}, {"item": ["Java(Spring)", "Python(Django)"],"level": "2"}, {"item": ["PHP", "Go", "Other Language"],"level": "3"}]
 
 - area: InfraStructure
   level: 4
-  description: "AWS는 바로 사용할 수 있어요. 그외 클라우드 서비스는 학습이 필요하지만 금방 적응할 수 있어요."
+  description: [{"item": ["AWS"],"level": "1"}, {"item": ["Azure", "GCP"],"level": "3"}]
+
+- area: Frontend
+  level: 3
+  description: [{"item": ["Javascript", "Jquery"],"level": "1"}, {"item": ["React"],"level": "2"}, {"item": ["TypeScript", "VueJS", "AngularJS"],"level": "3"}]
+
+
+
