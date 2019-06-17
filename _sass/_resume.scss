@@ -3,6 +3,19 @@
 
 // util
 
+.star_rating {font-size:0; letter-spacing:-4px;}
+.star_rating span {
+    font-size:22px;
+    letter-spacing:0;
+    display:inline-block;
+    margin-left:5px;
+    color:#ccc;
+    text-decoration:none;
+}
+.star_rating span:first-child {margin-left:0;}
+.star_rating span.on {color:gold;}
+
+
 .badge {
     display: inline-block;
     padding: .25em .4em;
@@ -33,6 +46,11 @@
 .badge-blue {
     color: #fff;
     background-color: #0c4c96;
+}
+
+.badge-goldenrod {
+    color: #fff;
+    background-color: goldenrod;
 }
 
 .section-header {
