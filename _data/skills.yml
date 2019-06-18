@@ -1,14 +1,14 @@
 - area: Backend
   level: 4
-  proficient: ["Ruby(RoR)", "SQL(Mysql, Psql)", "Redis"]
+  proficient: ["Ruby(RoR)", "SQL(Mysql)", "Redis"]
   experienced: ["Java(Spring)", "Python(Django)"]
   interesting: []
 
 - area: InfraStructure
   level: 4
-  proficient: ["AWS InfraStructure"]
-  experienced: ["Lambda", "Sphinx Search Engine"]
-  interesting: ["Kubernetes", "Serverless Architecture", "ElasticSearch", "GCP"]
+  proficient: ["AWS Infra"]
+  experienced: ["Lambda", "SphinxSearch"]
+  interesting: ["Kubernetes", "Serverless Infra", "ElasticSearch", "GCP"]
 
 - area: Frontend
   level: 3

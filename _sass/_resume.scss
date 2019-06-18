@@ -7,7 +7,12 @@
   border-collapse:collapse;
 }
 
-.skill-set th, .skill-star td {
+.skill-set tr th {
+  border-left:15px solid white;
+  border-right:15px solid white;
+}
+
+.skill-star td {
   border-left:15px solid white;
   border-right:15px solid white;
 }
@@ -18,7 +23,7 @@
 }
 
 .star_rating span {
-    font-size:22px;
+    font-size:1rem;
     letter-spacing:0;
     display:inline-block;
     margin-left:5px;
