@@ -1,4 +1,4 @@
-- project: 프로그래밍 언어 컨버팅 작업
+- project: 프로그래밍 언어 컨버팅
   duration: 2019.5 - 2019.6
   skillset: ["Ruby", "Ruby On Rails", "Java", "Spring", "React", "Jquery", "Javascript","Mysql", "Redis", "Tomcat7"]
   infraset: ["Amazon EC2", "Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon Route53"]

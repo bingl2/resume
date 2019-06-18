@@ -17,12 +17,12 @@
   border-right:15px solid white;
 }
 
-.star_rating {
+.star-rating {
   font-size:0;
   letter-spacing:-4px;
 }
 
-.star_rating span {
+.star-rating span {
     font-size:1rem;
     letter-spacing:0;
     display:inline-block;
@@ -30,8 +30,14 @@
     color:#ccc;
     text-decoration:none;
 }
-.star_rating span:first-child {margin-left:0;}
-.star_rating span.on {color:gold;}
+.star-rating span:first-child {margin-left:0;}
+.star-rating span.on {color:gold;}
+
+.target-link {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
 
 .badge {
     display: inline-block;
