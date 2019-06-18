@@ -3,6 +3,9 @@
 
 // util
 
+.skill-set { border-collapse:collapse;}
+.skill-set th, .skill-star td { border-left:15px solid white; border-right:15px solid white;}
+
 .star_rating {font-size:0; letter-spacing:-4px;}
 .star_rating span {
     font-size:22px;

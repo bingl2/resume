@@ -36,7 +36,7 @@
         </div>
         <br>
 
-        <table width="100%">
+        <table width="100%" class="skill-star">
             <tr>
                 {% for skill in site.data.skills %}
                 <th width="33%" style="text-align: center">{{ skill.area }}</th>
@@ -62,7 +62,7 @@
         <br>
         <br>
 
-        <table width="100%">
+        <table width="100%" class="skill-star">
             <tr>
                 {% for skill_set in site.resume_skill_set %}
                     <th width="33%">{{skill_set["title"]}}<p style="font-size: 3px; margin-top: 0">{{skill_set["description"]}}</p></th>
