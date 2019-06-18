@@ -8,7 +8,7 @@
   duration: 2018.12 — 2019.4
   skillset: ["Ruby", "Ruby On Rails", "Mysql", "Jquery", "Javascript", "Redis", "Whenever", "Sphinx Search Engine", "Sidekiq"]
   infraset: ["Amazon EC2", "Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon Lambda", "Amazon CloudWatch", "Amazon Route53"]
-  descriptions: ["직관성을 높인 심플한 구조의 UI·UX 전면 개편과 이상형 매칭 기능 강화, 신규 콘텐츠 추가", "회원가입 프로세스 개선 작업", "아이템 매출 및 사용 추세 분석 내용 기반으로 아이템 정리 및 기능 수정", "그 외 다양한 API 추가 작업 및 수정", "추가 및 수정되는 기능에 대응되는 어드민 기능 수정", "다양한 데이터 마이그레이션 스크립트 구현", "안정적인 배포 플렌 및 백업 플렌 기획"]
+  descriptions: ["직관성을 높인 심플한 구조의 UI·UX 전면 개편과 이상형 매칭 기능 강화, 신규 콘텐츠 추가", "회원가입 프로세스 개선 작업", "아이템 매출 및 사용 추세 분석 내용 기반으로 아이템 정리 및 기능 수정", "그 외 다수의 API 추가 작업 및 수정", "추가 및 수정되는 기능에 대응되는 어드민 기능 수정", "다양한 데이터 마이그레이션 스크립트 구현", "안정적인 배포 및 백업 플랜 기획"]
 
 - project: 코인 거래량 통계 분석 서비스
   duration: 2018.6
@@ -20,7 +20,7 @@
   duration: 2017.9
   skillset: ["Ruby", "Ruby On Rails", "Postgresql"]
   infraset: ["Amazon EC2", "Amazon RDS"]
-  descriptions: ["사내 익명 게시판 서비스", "회사 내부 해커톤", "RESTful API 설계"]
+  descriptions: ["사내 익명 게시판 서비스", "해커톤을 진행하여 클라이언트 개발자, 디자이너와 협업", "회사 내부에서만 접근 가능하도록 네트워크 세팅", "RESTful API 설계"]
 
 - project: 뉴스레터 구독 알림 서비스
   duration: 2017.3 — 2017.5
