@@ -3,7 +3,7 @@
   position: Backend Developer
   duration: 2016년 12월 ~ 재직중
   summarys: ["소개팅 앱 이음과 이음오피스 백엔드 담당", "Ruby On Rails를 이용한 API 및 어드민(웹) 구축", "전체적인 AWS 인프라 관리 및 유지보수 담당", "Jenkins, Capistrano 를 이용한 배포 자동화", "N+1 쿼리 문제 해결을 위한 join + includes 최적화", "비동기 작업 및 배치 작업을 위한 sidekiq, whenever schedule 관리", "mysql 쿼리 플랜 분석 및 최적화", "인프라 비용 절감 계획 수립 및 적용", "이음 5.0 리뉴얼", "Java(Spring) To Ruby(RoR) 컨버팅"]
-  skillset: ["Ruby", "Ruby On Rails", "Mysql", "Redis", "MongoDB", "Sidekiq", "Nginx", "Java", "Spring", "Tomcat", "Jquery", "React", "Sphinx"]
+  skillset: ["Ruby", "Ruby On Rails", "Mysql", "Redis", "MongoDB", "Sidekiq", "Nginx", "Java", "Spring", "Tomcat7", "Jquery", "React", "Sphinx"]
   infraset: ["Amazon EC2", "Amazon ELB + Auto Scailing", "Amazon RDS", "Amazon S3", "Amazon Elasticache", "Amazon CloudFront", "Amazon SNS", "Amazon Lambda", "Amazon CloudWatch", "Amazon IAM", "Jenkins", "Papertrail", "Errbit"]
 #  summary: 이음소시어스에서는 이음과 이음오피스라는 소개팅 앱 서비스와 맺음이라는 결혼 정보 서비스를 제공하고 있습니다. <br><br> 백엔드 개발자로 입사를 하였고 이음 서비스를 담당하게 되었습니다. 이음은 Ruby라는 언어를 사용하였고, RoR(Ruby on Rails) 프레임워크를 사용하여 구축된 서비스입니다. 이음 서비스 적응 후 이음오피스(직장인 전용) 서비스 또한 담당을 하게 되었고 현재는 이음과 이음오피스 두 개의 서비스를 담당하고 있습니다. <br><br> AWS 인프라 운영, API 신규 기능 개발 및 유지 보수 그리고 운영팀을 위한 백오피스 개발 등이 주된 작업입니다. 두 개의 서비스의 메인 담당자로 혼자 업무를 진행하며 장애 발생 시 고초를 겪었으나 서비스 운영 장애 대응에있어 직접 부딪히며 경험을 쌓는데 많은 도움이 되었습니다. 또한 AWS 인프라 운영에 백업 담당자로 직접 담당하게 되면서 서비스 운영 시 인프라 장애 대응이나, 신규 프로젝트 진행시 인프라 구축 등의 경험을 쌓을 수 있었습니다.
 
