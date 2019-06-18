@@ -1,14 +1,20 @@
 - area: Backend
   level: 4
-  description: [{"item": ["Ruby(RoR)", "SQL(Mysql, Psql)"],"level": "1"}, {"item": ["Java(Spring)", "Python(Django)"],"level": "2"}, {"item": ["PHP", "Go", "Other Language"],"level": "3"}]
+  proficient: ["Ruby(RoR)", "SQL(Mysql, Psql)", "Redis"]
+  experienced: ["Java(Spring)", "Python(Django)"]
+  interesting: []
 
 - area: InfraStructure
   level: 4
-  description: [{"item": ["AWS"],"level": "1"}, {"item": ["Azure", "GCP"],"level": "3"}]
+  proficient: ["AWS InfraStructure"]
+  experienced: ["Lambda", "Sphinx Search Engine"]
+  interesting: ["Kubernetes", "Serverless Architecture", "ElasticSearch", "GCP"]
 
 - area: Frontend
   level: 3
-  description: [{"item": ["Javascript", "Jquery"],"level": "1"}, {"item": ["React"],"level": "2"}, {"item": ["TypeScript", "VueJS", "AngularJS"],"level": "3"}]
+  proficient: ["Javascript", "Jquery"]
+  experienced: ["React"]
+  interesting: ["TypeScript", "VueJS"]
 
 
 

@@ -36,7 +36,7 @@
         </div>
         <br>
 
-        <table width="100%">
+        <table width="100%" class="skill-star">
             <tr>
                 {% for skill in site.data.skills %}
                 <th width="33%" style="text-align: center">{{ skill.area }}</th>
@@ -62,43 +62,31 @@
         <br>
         <br>
 
-        <table width="100%">
+        <table width="100%" class="skill-star">
             <tr>
-                <th width="33%">Proficient</th>
-                <th width="33%">Experienced</th>
-                <th width="33%">Need Learning</th>
+                {% for skill_set in site.resume_skill_set %}
+                    <th width="33%">{{skill_set["title"]}}<p style="font-size: 3px; margin-top: 0">{{skill_set["description"]}}</p></th>
+                {% endfor %}
             </tr>
             <tr>
                 <td style="text-align: center">
                     {% for skill in site.data.skills %}
-                        {% for desc in skill.description %}
-                            {% if desc["level"] == '1' %}
-                                {% for item in desc["item"] %}
-                                    <span class="badge badge-blue">{{ item }}</span>
-                                {% endfor %}
-                            {% endif %}
+                        {% for proficient in skill.proficient %}
+                            <span class="badge badge-blue">{{ proficient }}</span>
                         {% endfor %}
                     {% endfor %}
                 </td>
                 <td style="text-align: center">
                     {% for skill in site.data.skills %}
-                        {% for desc in skill.description %}
-                            {% if desc["level"] == '2' %}
-                                {% for item in desc["item"] %}
-                                    <span class="badge badge-green">{{ item }}</span>
-                                {% endfor %}
-                            {% endif %}
+                        {% for experienced in skill.experienced %}
+                            <span class="badge badge-green">{{ experienced }}</span>
                         {% endfor %}
                     {% endfor %}
                 </td>
                 <td style="text-align: center">
                     {% for skill in site.data.skills %}
-                        {% for desc in skill.description %}
-                            {% if desc["level"] == '3' %}
-                                {% for item in desc["item"] %}
-                                    <span class="badge badge-goldenrod">{{ item }}</span>
-                                {% endfor %}
-                            {% endif %}
+                        {% for interesting in skill.interesting %}
+                            <span class="badge badge-goldenrod">{{ interesting }}</span>
                         {% endfor %}
                     {% endfor %}
                 </td>
@@ -106,6 +94,11 @@
         </table>
 
         <br>
+
+        <div class="executive-mini-summary no-print" itemprop="description">
+            {{ site.resume_skill_set_description }}
+        </div>
+
         <br>
 
         {% if site.resume_looking_for_work == 'yes' %}

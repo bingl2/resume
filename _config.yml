@@ -14,7 +14,9 @@ resume_name:                    "최현빈"
 resume_title:                   "Software Engineer"
 resume_contact_email:           "chlgusrla@gmail.com"
 resume_header_contact_info: "chlgusrla@gmail.com"
-resume_header_intro: "<br><div style='text-align: center;'>함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br> 책 읽기와 이야기 하는 것을 좋아합니다.</div><br>"
+resume_header_intro: "<br><div style='text-align: center;'>함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br><br> 철학, 인문학, 소설, 자기계발 서적에 관심이 많습니다. <br> 개발뿐만 아니라 여러 분야의 관하여 대화하고 토론하는 것을 좋아합니다. </div><br>"
+resume_skill_set: [{title: "Proficient", description: "(능숙함)"}, {title: "Experienced", description: "(경험있음)"}, {title: "Interesting", description: "(최근 흥미)"}]
+resume_skill_set_description: "<br><div style='text-align: center;'><strong>Backend</strong> 와 <strong>InfraStructure</strong> 는 어떤 환경이어도 빠르게 학습하고 적응하여 개발에 합류 할 수 있습니다. <br> <strong>Frontend</strong> 는 숙련도가 다소 부족하지만 무난히 기능들을 구현해낼 수 있습니다.</div><br>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
