@@ -1,10 +1,10 @@
 #- organization: <a href="https://blog.1rooom.com/" target="_blank">1Rooom</a>
 - organization: 1Rooom
-  role: Developer
+  role: Backend Developer
   year: 2018.6 — Present
   summary: 자발적으로 작업을 하는 습관을 기르기 위한 개발자 모임입니다.
 
-- organization: Flative
-  role: Developer
+- organization: "<a href='https://flative.github.io/blog/' class='target-link' target='_blank'>Flative</a>"
+  role: Backend Developer
   year: 2016.2 — Present
   summary: 각종 개발 정보 공유 및 협업 팀프로젝트를 위한 개발자 모임입니다.
