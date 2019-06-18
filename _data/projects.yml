@@ -1,3 +1,15 @@
+- project: 프로그래밍 언어 컨버팅 작업
+  duration: 2019.5 - 2019.6
+  skillset: ["Ruby", "Ruby On Rails", "Java", "Spring", "React", "Jquery", "Javascript","Mysql", "Redis", "Tomcat7"]
+  infraset: ["Amazon EC2", "Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon Route53"]
+  descriptions: ["Java와 Spring으로 구현된 구어드민을 Ruby와 RoR로 구현된 신어드민으로 이전 작업", "모든 과정을 직접 주도하여 기능 분석 및 의사소통 진행", "Spring 학습 및 구어드민 구조 분석", "모니터링 뷰 구현시 React 활용", "구어드민 운영 서버 분석 및 정리"]
+
+- project: 이음 5.0 리뉴얼
+  duration: 2018.12 — 2019.4
+  skillset: ["Ruby", "Ruby On Rails", "Mysql", "Jquery", "Javascript", "Redis", "Whenever", "Sphinx Search Engine", "Sidekiq"]
+  infraset: ["Amazon EC2", "Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon Lambda", "Amazon CloudWatch", "Amazon Route53"]
+  descriptions: ["직관성을 높인 심플한 구조의 UI·UX 전면 개편과 이상형 매칭 기능 강화, 신규 콘텐츠 추가", "회원가입 프로세스 개선 작업", "아이템 매출 및 사용 추세 분석 내용 기반으로 아이템 정리 및 기능 수정", "그 외 다양한 API 추가 작업 및 수정", "추가 및 수정되는 기능에 대응되는 어드민 기능 수정", "다양한 데이터 마이그레이션 스크립트 구현", "안정적인 배포 플렌 및 백업 플렌 기획"]
+
 - project: 코인 거래량 통계 분석 서비스
   duration: 2018.6
   skillset: ["Python", "Django", "Postgresql", "Zappa"]
