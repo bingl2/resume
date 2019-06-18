@@ -3,10 +3,20 @@
 
 // util
 
-.skill-set { border-collapse:collapse;}
-.skill-set th, .skill-star td { border-left:15px solid white; border-right:15px solid white;}
+.skill-set {
+  border-collapse:collapse;
+}
 
-.star_rating {font-size:0; letter-spacing:-4px;}
+.skill-set th, .skill-star td {
+  border-left:15px solid white;
+  border-right:15px solid white;
+}
+
+.star_rating {
+  font-size:0;
+  letter-spacing:-4px;
+}
+
 .star_rating span {
     font-size:22px;
     letter-spacing:0;
@@ -17,7 +27,6 @@
 }
 .star_rating span:first-child {margin-left:0;}
 .star_rating span.on {color:gold;}
-
 
 .badge {
     display: inline-block;
@@ -123,6 +132,10 @@
 
   .executive-summary {
     @include media_larger_than_mobile { font-size: 1.125rem; }
+  }
+
+  .executive-mini-summary {
+    @include media_larger_than_mobile { font-size: 0.85rem; }
   }
 }
 
