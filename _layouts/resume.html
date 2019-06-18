@@ -39,7 +39,7 @@
         <table width="100%" class="skill-star">
             <tr>
                 {% for skill in site.data.skills %}
-                <th width="33%" style="text-align: center">{{ skill.area }}</th>
+                <th width="33%" style="text-align: center; font-size: 1rem">{{ skill.area }}</th>
                 {% endfor %}
             </tr>
 
@@ -65,7 +65,7 @@
         <table width="100%" class="skill-star">
             <tr>
                 {% for skill_set in site.resume_skill_set %}
-                    <th width="33%">{{skill_set["title"]}}<p style="font-size: 3px; margin-top: 0">{{skill_set["description"]}}</p></th>
+                <th width="33%"><span style="font-size: 1rem">{{skill_set["title"]}}</span><p style="font-size: 0.5rem; margin-top: 0">{{skill_set["description"]}}</p></th>
                 {% endfor %}
             </tr>
             <tr>
