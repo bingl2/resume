@@ -15,6 +15,8 @@ resume_title:                   "Software Engineer"
 resume_contact_email:           "chlgusrla@gmail.com"
 resume_header_contact_info: "chlgusrla@gmail.com"
 resume_header_intro: "<br><div style='text-align: center;'>함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br> 책 읽기와 이야기 하는 것을 좋아합니다.</div><br>"
+resume_skill_set: [{title: "Proficient", description: "(능숙함)"}, {title: "Experienced", description: "(경험있음)"}, {title: "Interesting", description: "(최근 흥미)"}]
+resume_skill_set_description: "<br><div style='text-align: center;'>함께 일하고 싶은 개발자가 되기 위해 노력하고 있습니다. <br> 책 읽기와 이야기 하는 것을 좋아합니다.</div><br>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
