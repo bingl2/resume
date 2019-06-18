@@ -46,7 +46,7 @@
             <tr>
                 {% for skill in site.data.skills %}
                 <td style="text-align: center;">
-                    <p class="star_rating">
+                    <p class="star-rating">
                         {% for number in (1..skill.level)%}
                         <span class="on">★</span>
                         {% endfor %}
@@ -143,7 +143,8 @@
             {% for infra in job.infraset %}
             <span class="badge badge-green">{{ infra }}</span>
             {% endfor %}
-            <br><br>
+            <br>
+            <div class="divider"></div>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -179,7 +180,8 @@
             {% for infra in project.infraset %}
             <span class="badge badge-green">{{ infra }}</span>
             {% endfor %}
-            <br><br>
+            <br>
+            <div class="divider"></div>
         </div>
         {% endfor %}
 
@@ -238,6 +240,7 @@
             <h3 class="resume-item-title">{{ association.organization }}</h3>
             <h4 class="resume-item-details">{{ association.role }} &bull; {{ association.year }}</h4>
             <p class="resume-item-copy">{{ association.summary }}</p>
+            <div class="divider"></div>
         </div>
         {% endfor %}
 
@@ -259,6 +262,7 @@
                 }}</h4>
             <h5 class="resume-item-details award-title" itemprop="description">{{ education.awards }}</h5>
             <p class="resume-item-copy">{{ education.summary }}</p>
+            <div class="divider"></div>
         </div>
         {% endfor %}
     </section>
