@@ -36,31 +36,31 @@
         </div>
         <br>
 
-        <table width="100%" class="skill-star">
-            <tr>
-                {% for skill in site.data.skills %}
-                <th width="33%" style="text-align: center; font-size: 1rem">{{ skill.area }}</th>
-                {% endfor %}
-            </tr>
+        <!--<table width="100%" class="skill-star">-->
+            <!--<tr>-->
+                <!--{% for skill in site.data.skills %}-->
+                <!--<th width="33%" style="text-align: center; font-size: 1rem">{{ skill.area }}</th>-->
+                <!--{% endfor %}-->
+            <!--</tr>-->
 
-            <tr>
-                {% for skill in site.data.skills %}
-                <td style="text-align: center;">
-                    <p class="star-rating">
-                        {% for number in (1..skill.level)%}
-                        <span class="on">★</span>
-                        {% endfor %}
-                        {% for number in (skill.level..4)%}
-                        <span>★</span>
-                        {% endfor %}
-                    </p>
-                </td>
-                {% endfor %}
-            </tr>
-        </table>
+            <!--<tr>-->
+                <!--{% for skill in site.data.skills %}-->
+                <!--<td style="text-align: center;">-->
+                    <!--<p class="star-rating">-->
+                        <!--{% for number in (1..skill.level)%}-->
+                        <!--<span class="on">★</span>-->
+                        <!--{% endfor %}-->
+                        <!--{% for number in (skill.level..4)%}-->
+                        <!--<span>★</span>-->
+                        <!--{% endfor %}-->
+                    <!--</p>-->
+                <!--</td>-->
+                <!--{% endfor %}-->
+            <!--</tr>-->
+        <!--</table>-->
 
-        <br>
-        <br>
+        <!--<br>-->
+        <!--<br>-->
 
         <table width="100%" class="skill-star">
             <tr>

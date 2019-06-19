@@ -4,7 +4,7 @@
   infraset: ["Amazon EC2", "Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon Route53"]
   descriptions: ["Java와 Spring으로 구현된 구어드민을 Ruby와 RoR로 구현된 신어드민으로 이전 작업", "모든 과정을 직접 주도하여 기능 분석 및 의사소통 진행", "Spring 학습 및 구어드민 구조 분석", "모니터링 뷰 구현시 React 활용", "구어드민 운영 서버 분석 및 정리"]
 
-- project: 이음 5.0 리뉴얼
+- project: "<a href='https://apps.apple.com/kr/app/id463416244'class='target-link' target='_blank'>이음 5.0 리뉴얼</a>"
   duration: 2018.12 — 2019.4
   skillset: ["Ruby", "Ruby On Rails", "Mysql", "Jquery", "Javascript", "Redis", "Whenever", "Sphinx Search Engine", "Sidekiq"]
   infraset: ["Amazon EC2", "Amazon RDS", "Amazon ElastiCache", "Amazon S3", "Amazon Lambda", "Amazon CloudWatch", "Amazon Route53"]
